@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="19cm" height="15cm" viewBox="420 200 375 283" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="643.703" y1="271.523" x2="678.782" y2="220.499"/>
+    <polygon style="fill: #000000" points="683.031,214.319 681.485,225.392 678.782,220.499 673.245,219.727 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="683.031,214.319 681.485,225.392 678.782,220.499 673.245,219.727 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="630,260 740,310 740,390 630,340 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="630,260 740,310 740,390 630,340 "/>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #bfbfbf" x1="630" y1="300" x2="740" y2="350"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #bfbfbf" x1="685" y1="285" x2="685" y2="365"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #315a31" x1="516.343" y1="460.123" x2="685" y2="325"/>
+  <g>
+    <ellipse style="fill: #000000" cx="514" cy="462" rx="2" ry="2"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="514" cy="462" rx="2" ry="2"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" cx="514" cy="462" rx="2" ry="2"/>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="615.709" y1="311.559" x2="640.291" y2="276.441"/>
+  <g>
+    <ellipse style="fill: #0000ff" cx="642" cy="274" rx="2" ry="2"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #0000ff" cx="642" cy="274" rx="2" ry="2"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #0000ff" cx="642" cy="274" rx="2" ry="2"/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="510,310 620,290 640,370 530,390 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="510,310 620,290 640,370 530,390 "/>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #bfbfbf" x1="520" y1="350" x2="630" y2="330"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #bfbfbf" x1="565" y1="300" x2="585" y2="380"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #733131" x1="515.344" y1="459.312" x2="575" y2="340"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="515.672" y1="459.525" x2="612.328" y2="316.475"/>
+  <g>
+    <ellipse style="fill: #0000ff" cx="614" cy="314" rx="2" ry="2"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #0000ff" cx="614" cy="314" rx="2" ry="2"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #0000ff" cx="614" cy="314" rx="2" ry="2"/>
+  </g>
+  <text font-size="12.8" style="fill: #733131;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="420" y="290">
+    <tspan x="420" y="290">Plano da Imagem 2</tspan>
+    <tspan x="420" y="306">na base natural</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #315a31;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="679.102" y="244.273">
+    <tspan x="679.102" y="244.273">Plano da Imagem </tspan>
+    <tspan x="679.102" y="260.273">virtual 2</tspan>
+    <tspan x="679.102" y="276.273">na base canônica</tspan>
+  </text>
+  <g>
+    <polygon style="fill: #733131" points="558,344 574,341 568,350 553,352 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="558,344 574,341 568,350 553,352 "/>
+  </g>
+  <g>
+    <polygon style="fill: #315a31" points="670,319 684,325 675,332 662,326 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="670,319 684,325 675,332 662,326 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="480" y="480">
+    <tspan x="480" y="480">Câmera 2</tspan>
+  </text>
+  <g>
+    <ellipse style="fill: #0000ff" cx="686" cy="210" rx="2" ry="2"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #0000ff" cx="686" cy="210" rx="2" ry="2"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #0000ff" cx="686" cy="210" rx="2" ry="2"/>
+  </g>
+  <text font-size="14.1111" style="fill: #315a31;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="591.152" y="417.794">
+    <tspan x="591.152" y="417.794">h0</tspan>
+  </text>
+  <text font-size="14.1111" style="fill: #733131;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="506.53" y="420.112">
+    <tspan x="506.53" y="420.112">h0</tspan>
+  </text>
+  <image x="636.188" y="271.88" width="35.5397" height="27.4342" xlink:href="file:///media/fernando/FER8G-BTRFS/FORMULATION/StereoVisionDisplaced/images/D2p.png"/>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="692.498" y="212.45">
+    <tspan x="692.498" y="212.45">P</tspan>
+  </text>
+  <image x="586.544" y="291.564" width="43.3252" height="26.1138" xlink:href="file:///media/fernando/FER8G-BTRFS/FORMULATION/StereoVisionDisplaced/images/D2Np.png"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #733131" x1="614.606" y1="316.935" x2="617.724" y2="332.05"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #733131" x1="611.064" y1="314.568" x2="570.588" y2="322.392"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #315a31" x1="644.739" y1="275.159" x2="685.146" y2="292.254"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #315a31" x1="641.68" y1="305.39" x2="641.97" y2="276.973"/>
+</svg>

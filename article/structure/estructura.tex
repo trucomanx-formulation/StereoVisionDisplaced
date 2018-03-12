@@ -1,0 +1,102 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Margenes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{vmargin}
+
+\setpapersize{A4}
+\setmargins{3.0cm}% margen izquierdo
+	    {1.5cm}% margen superior
+	    {15.0cm}% anchura del texto
+	    {23cm}% altura del texto
+	    {10pt}% altura de los encabezados
+	    {1cm}% espacio entre el texto y los encabezados
+	    {10pt}% altura del pie de página
+	    {2cm}% espacio entre el texto y el pie de página
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Defino estilo de theoremas
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \usepackage{amsthm}
+  
+  % Teoremas normales : Funciona bien con todo.
+  % \input{structure/theorems/theoremsimple}
+
+  
+  % Teoremas en cajas: Funciona bien con PDFLaTex
+  % \input{structure/theorems/theoremsqr}
+
+  
+  % Teoremas en cajas aredondadas de colores : Funciona bien con PDFLaTex
+  % no quiebra cuadro alltar de pagina
+  % exemplo
+  % \begin{theorembox}[Titulo del teorema] \label{teo:propor}
+  % X 
+  % \end{theorembox}  
+  % \input{structure/theorems/theorembox}  
+  
+  
+  %\begin{corollarytcolorbox}{Titulo}{label1}
+  % texto  
+  % \end{corollarytcolorbox}
+  %
+  %\begin{theoremtcolorbox}{Titulo}{label2}
+  % texto  
+  % \end{theoremtcolorbox}
+  \input{structure/theorems/theoremtcolorbox1}  
+  
+  
+  %http://tex.stackexchange.com/questions/120454/theorem-with-separate-tikz-environments-for-header-and-body
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Defino bloques de texto con marco y color
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  % textos en cajas de colores
+  %example
+  %\begin{bclogo}[couleur=blue!30, arrondi=0.1,logo=\bccrayon,ombre=true]{Titulo da caixa}
+  % texto qualquer.
+  %\end{bclogo}
+  \input{structure/textblocks/textblock1}
+  
+  % Exemplo1
+  % \begin{tcolorboxgreycolor}{Titulo}%% {tcolorboxgreen},{tcolorboxbluecolor}
+  % texto
+  % \end{tcolorboxgreycolor}
+  %
+  % Exemplo2
+  % \begin{tcolorbox}[colback=red!5!white,colframe=red!75!black,title=My Heading]
+  % Texto2
+  % \end{tcolorbox}
+  \input{structure/textblocks/textblock2}
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Defino bloques de texto con marco y color
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  % Example
+  % \begin{tcolorbox}[tab2,tabularx={X||Y|Y|Y|Y||Y}]
+  % Group & One     & Two     & Three    & Four     & Sum      \\\hline\hline
+  % Red   & 1000.00 & 2000.00 &  3000.00 &  4000.00 & 10000.00 
+  % \end{tcolorbox}
+  % 
+  % \begin{tcolorbox}[tab2,tabularx={X||Y|Y|Y|Y||Y},title=My table,boxrule=0.5pt]
+  % Group & One     & Two     & Three    & Four     & Sum      \\\hline\hline
+  % Red   & 1000.00 & 2000.00 &  3000.00 &  4000.00 & 10000.00 
+  % \end{tcolorbox}
+  % 
+  % \begin{tcolorbox}[tab1,tabularx={X||YYYY||Y}]
+  % Group & One     & Two     & Three    & Four     & Sum      \\\hline\hline
+  % Red   & 1000.00 & 2000.00 &  3000.00 &  4000.00 & 10000.00 
+  % \end{tcolorbox}
+  \input{structure/tables/table1}
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  

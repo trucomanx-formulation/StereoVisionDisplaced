@@ -1,0 +1,18 @@
+\usepackage{tcolorbox}
+\tcbuselibrary{theorems}
+
+\definecolor{lowgray}{rgb}{0.95,0.95,0.95}
+
+\newcounter{theocount} 
+\newcounter{corocount} 
+
+\tcbmaketheorem{theoremtcolorbox}{Teorema}{ colback=lowgray!5,
+					    colframe=lowgray!35!black,
+					    breakable,                               % this will make the box breaks when the end of the page is reached
+					    fonttitle=\bfseries}{theocount}{teo}
+					    
+\tcbmaketheorem{corollarytcolorbox}{Corolário}{ colback=red!3,
+					    colframe=red!30!black!50,
+					    breakable,                               % this will make the box breaks when the end of the page is reached
+					    fonttitle=\bfseries}{corocount}{coro}
+

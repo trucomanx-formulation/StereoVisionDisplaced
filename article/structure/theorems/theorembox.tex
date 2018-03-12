@@ -1,0 +1,33 @@
+%exemplo
+%\begin{theorembox}[Titulo del teorema] \label{teo:propor}
+%X 
+%\end{theorembox}
+
+\usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
+\usepackage{needspace}% http://ctan.org/pkg/needspace
+
+
+\usepackage{structure/theorems/boiboites} % invoca a boiboites.sty
+
+
+\newboxedtheorem[boxcolor=gray, 
+                 background=gray!15, 
+                 titlebackground=gray!5,
+                 titleboxcolor = black]
+                 {theorembox}{Teorema}{thm}
+                 
+\AtBeginEnvironment{theorembox}{\Needspace{5\baselineskip}}
+                 
+\newboxedtheorem[boxcolor=blue, 
+                 background=blue!15, 
+                 titlebackground=blue!5,
+                 titleboxcolor = black]
+                 {definitionbox}{Definicion}{thm}
+
+\newboxedtheorem[boxcolor=red, 
+                 background=red!15, 
+                 titlebackground=red!5,
+                 titleboxcolor = black]
+                 {corollarybox}{Corolario}{coro}
+                 
+                 

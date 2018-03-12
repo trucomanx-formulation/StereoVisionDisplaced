@@ -1,0 +1,57 @@
+%% label no funciona
+\usepackage{tcolorbox}
+
+\definecolor{lowgrey}{rgb}{0.95,0.95,0.95}
+
+
+\newcounter{exe}                           % this will create a new counter for auto numbering the exercises
+
+\newcommand{\mytitletheo}{                     %this will create the the box with the "title" of the exercise
+   \node[fill=black!99,%fill=gray!20
+      rounded corners,
+      draw=black,
+      text=white,%text=black
+      line width=1pt,
+      inner sep=4pt,
+      anchor=west,
+      xshift=12pt]
+   at (frame.north west){\bfseries Teorema \stepcounter{exe}\theexe.};
+}
+
+\newcounter{corocount}                           % this will create a new counter for auto numbering the exercises
+
+\newcommand{\mytitlecoro}{                     %this will create the the box with the "title" of the exercise
+   \node[fill=black!99,%fill=gray!20
+      rounded corners,
+      draw=black,
+      text=white,%text=black
+      line width=1pt,
+      inner sep=4pt,
+      anchor=west,
+      xshift=12pt]
+   at (frame.north west){\bfseries Corolário \stepcounter{corocount}\thecorocount.};
+}
+
+\newtcolorbox{theoremtcolorbox}{                       % this will create the main box
+   enhanced,
+   overlay unbroken and first={\mytitletheo},   % this will ensure that the title will not be printed two times in broken boxes
+   colframe=gray,
+   colback=gray!5!white,
+   boxrule=1pt,
+   arc=3mm,
+   breakable,                               % this will make the box breaks when the end of the page is reached
+   top=15pt,
+   before=\vskip18pt,
+}
+
+\newtcolorbox{corollarytcolorbox}{                       % this will create the main box
+   enhanced,
+   overlay unbroken and first={\mytitlecoro},   % this will ensure that the title will not be printed two times in broken boxes
+   colframe=red!10!gray,
+   colback=red!3!lowgrey,
+   boxrule=1pt,
+   arc=3mm,
+   breakable,                               % this will make the box breaks when the end of the page is reached
+   top=15pt,
+   before=\vskip18pt,
+}

@@ -1,0 +1,43 @@
+% Exemplo1
+% \begin{tcolorboxgreycolor}{Titulo} %% {tcolorboxgreen},{tcolorboxbluecolor}
+% texto
+% \end{tcolorboxgreycolor}
+%
+% Exemplo2
+% \begin{tcolorbox}[colback=red!5!white,colframe=red!75!black,title=My Heading]
+% Texto2
+% \end{tcolorbox}
+
+\usepackage{color}
+
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usetikzlibrary{shadings,shadows}
+
+\definecolor{greycolor}{rgb}{0.1,0.1,0.1}
+\definecolor{greencolor}{rgb}{0.1,1,0.1}
+\definecolor{darkgreencolor}{HTML}{024103}
+\definecolor{darkbluecolor}{HTML}{000A62}
+
+
+\newenvironment{tcolorboxgreycolor}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=greycolor!5!white,colframe=greycolor!75!black,%
+    title=#1]}%
+    {\endtcolorbox}
+    
+\newenvironment{tcolorboxgreencolor}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=darkgreencolor!5!white,colframe=darkgreencolor!75!black,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\newenvironment{tcolorboxbluecolor}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=darkbluecolor!5!white,colframe=darkbluecolor!75!black,%
+    colbacklower=darkbluecolor!75!black,%
+    title=#1]}%
+    {\endtcolorbox}
